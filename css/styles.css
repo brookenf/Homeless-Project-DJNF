@@ -1,0 +1,50 @@
+body{
+  background-color: red;
+}
+
+.playerBox{
+  position: absolute;
+  z-index: 0;
+  width: 1186px;
+  height: 667px;
+  top: 0px; left: 0px;
+  overflow: hidden;
+  opacity: 1;
+  user-select: none;
+  margin-top: 0px;
+  margin-left: -405.5px;
+  max-width: initial;
+  transition-property: opacity;
+  transition-duration: 1000ms;
+}
+
+.mbr-background-video{
+  position: absolute;
+  z-index: 0;
+  min-width: 100%;
+  min-height: 100%;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 2000ms;
+}
+
+/*! Full-screen */
+.mbr-fullscreen .mbr-overlay {
+  min-height: 100vh;
+}
+
+.mbr-fullscreen {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  min-height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
