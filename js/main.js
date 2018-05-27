@@ -1,9 +1,5 @@
 jQuery(document).ready(function($){
 	console.log('You are here');
-
-	//Brooke's JS and jQUery stuff
-
-	//1. Pull pullquote
 	
 
 
