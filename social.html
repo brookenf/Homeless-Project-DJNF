@@ -50,47 +50,26 @@
               <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="team.html">Team</a>
             </li>
+              <li class="nav-item" id="lang-toggle">
+                   <a style="color:#CC574C; font-weight:900; "class="nav-link js-scroll-trigger" href="../spanish/index.html">En Español</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section id="social-media" style="margin-top: 10%; margin-left:5%; height:400px; margin-bottom: 15%;">
-      <div class="container">
-        <div class="row" style="margin: 0 auto; max-width: 80;">
-          <!--twitter-->
-          <div class="col-sm-6 col-sm-offset-2 center-block">
-            <a class="twitter-timeline"  href="https://twitter.com/search?q=%23unsheltered%20since%3A2018-05-23" data-widget-id="999519316146966528">Tweets about #unsheltered since:2018-05-23</a>
-                <script>!function(d,s,id){
-                  var js,
-                  fjs=d.getElementsByTagName(s)[0],
-                  p=/^http:/.test(d.location)?'http':'https';
-                  if(!d.getElementById(id)){
-                    js=d.createElement(s);
-                    js.id=id;
-                    js.src=p+"://platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js,fjs);
-                  }}
-                  (document,"script","twitter-wjs");
-                </script>
-          </div>
-          <!--faecbook-->
-          <div class="col-sm-6 center-block">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUnshelteredPhoenix%2F&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="600" style="display: block;border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-          </div>
-        <!--closing row-->
-        </div>
-      <!--closing container-->
-      </div>
-    </section>
+ <div style="margin-top:15%;" id="curator-feed"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag"> </a></div>
 
     <!-- Footer -->
-    <footer style="margin-top: 10%;">
-      <div class="container text-center">
-        <a href="../lang.html">Change Language</a>
-        <p>Copyright &copy; Dow Jones News Fund 2018</p>
-      </div>
-    </footer>
+    <footer>
+      <p>Copyright &copy; 2018.</p>
+        <p>
+          Produced by digital media interns of the Dow Jones News Fund in association with the <a id="cronkite-link" href="https://www.cronkite.asu.edu" target="_blank">Walter Cronkite School of Journalism</a> at Arizona State University.
+        </p>
+        <p>
+          About the <a href="https://www.dowjonesnewsfund.org" target="_blank">Dow Jones News Fund</a>
+        </p>
+     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -104,6 +83,16 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+    
+    <!-- Curator Javascript -->
+      <script type="text/javascript">
+          /* curator-feed */
+          (function(){
+              var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+              i.src = "https://cdn.curator.io/published/dd404225-ad07-4496-b51d-805c8b15737e.js";
+              e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+          })();
+      </script>
 
   </body>
 
