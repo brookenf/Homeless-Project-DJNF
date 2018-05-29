@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Tinos" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/social.css" rel="stylesheet">
 
   </head>
 
@@ -59,8 +59,52 @@
         </div>
       </div>
     </nav>
-      
- <div style="margin-top:15%; margin-left:3%; margin-right:3%;" id="curator-feed"></div>
+
+
+    <!--facebook videos embeds-->
+    <div class="container-fluid" id="fb-iframe">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h1 class="text-center" style="color:white;">De Facebook</h1>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <!--first fb post-->
+        <div class="col-lg-4">
+          <div class="embed-responsive embed-responsive-1by1">
+             <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUnshelteredPhoenix%2Fvideos%2F384793732004861%2F&show_text=0&width=560" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+        </div>
+
+        <!--second one-->
+        <div class="col-lg-4">
+          <div class="embed-responsive embed-responsive-1by1">
+             <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUnshelteredPhoenix%2Fvideos%2F384746558676245%2F&show_text=0&width=560" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+        </div>
+
+        <!--third one-->
+        <div class="col-lg-4">
+          <div class="embed-responsive embed-responsive-1by1">
+             <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUnshelteredPhoenix%2Fvideos%2F384815615336006%2F&show_text=0&width=560" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+        </div>
+
+      <!--closing of the row-->
+      </div>
+     <!--closing of the div id fb-iframe-->
+    </div>
+
+    <!--curator feed-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12">
+          <div id="curator-feed-es"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -85,13 +129,13 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
-    
+
     <!-- Curator Javascript -->
-      <script type="text/javascript">
-/* curator-feed */
-(function(){
-var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
-i.src = "https://cdn.curator.io/published/d0b4a9b9-f28d-466c-84aa-ac6355f14483.js";
+    <script type="text/javascript">
+      /* curator-feed-es */
+        (function(){
+          var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+          i.src = "https://cdn.curator.io/published/89694ea8-195f-4368-977b-757637344ee6.js"
 e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 })();
 </script>
