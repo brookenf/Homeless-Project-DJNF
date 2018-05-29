@@ -13,9 +13,12 @@
 
 #lang-togg a:hover{
     background-color:#CC574C;
-    
+
 }
 
+.social-page{
+  color: #000 !important;
+}
 
 
 body{
@@ -23,7 +26,7 @@ body{
     position:relative;
     width:100%;
     height:100%;
-    color:#fff;
+    color: #fff;
     background-color:#000}
 
 html{
