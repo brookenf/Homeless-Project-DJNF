@@ -157,6 +157,7 @@ margin-left: auto;
 margin-right: auto;
 border: solid 2px #aaa;
 margin-top:2%;
+margin-bottom: 2%;
 }
 
 .inline-photo-caption{
@@ -950,8 +951,8 @@ li.selected .cd-project-title,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.no-touch .cd-primary-nav a:hover {
-  background-color: #808080;
+.cd-primary-nav a:hover {
+  background-color: #cc574c;
   text-decoration: none;
 }
 
