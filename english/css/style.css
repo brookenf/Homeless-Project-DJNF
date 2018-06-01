@@ -1,8 +1,9 @@
 /* Justin's styling for the slideshow */
 
 .slideshow-container {
-  padding-top: 1%;
-  width: 90%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 70%;
   position: relative;
   margin: auto;
 }
@@ -57,6 +58,17 @@ line-height: 60px;
 padding-top: 4px;
 padding-right: 8px;
 padding-left: 3px;
+}
+
+#drop-cap{
+  color: #994139;
+  float: left;
+  font-family: 'Tinos', serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
 
 .cd-project-title{
@@ -143,6 +155,8 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 border: solid 2px #aaa;
+margin-top:2%;
+margin-bottom: 2%;
 }
 
 .inline-photo-caption{
